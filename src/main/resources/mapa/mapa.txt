@@ -1,0 +1,120 @@
+// Establecemos las salas que va habrá en el juego.
+// Las configuraciones se separan con #:
+// + Nombre de la sala.
+// + Puertas: ubicación(N [norte] | S [sur] | E [este] | O [oeste]) + estado puerta(L|B) ...
+C1#SLOLEL;
+C2#OLEL;
+C3#OLSL;
+C4#NL;
+C5#ELOL;
+C6#ELSB;
+C7#NL;
+C8#NLSB;
+C9#NLEL;
+C10#OLSL;
+C11#NLSL;
+C12#NLSLOLEL;
+C13#EBOL;
+C14#OL;
+C15#OLEL;
+C16#SLELNB;
+C17#SL;
+C18#NLOL;
+C19#SLOBEL;
+C20#EL;
+C21#NLSL;
+C22#NLOLEB;
+C23#OLSB;
+C24#OLEL;
+C25#OBSLEL;
+C26#EL;
+C27#NLSB;
+C28#NL;
+C29#NLSL;
+C30#NLSLEB;
+C31#OL;
+C32#NLSL;
+C33#NLEL;
+C34#OLSL;
+C35#NLEB;
+C36#OL;
+FN##;
+@
+// Definimos la uniones de las salas.
+// + Nombre de la sala.
+// + Salidas: ubicación(N [norte] | S [sur] | E [este] | O [oeste]) . la sala a la que se hace referencia - ...
+C1#SC8-OC5-EC2;
+C2#OC1-EC3;
+C3#OC2-SC4;
+C4#NC3;
+C5#EC1-OC6;
+C6#EC5-SC7;
+C7#NC6;
+C8#NC1-SC9;
+C9#NC8-EC10;
+C10#OC9-SC11;
+C11#NC10-SC12;
+C12#NC11-SC29-OC15-EC13;
+C13#OC12-EC14;
+C14#OC13;
+C15#OC16-EC12;
+C16#SC18-NC17-EC15;
+C17#SC16;
+C18#NC16-OC19;
+C19#SC21-OC20-EC18;
+C20#EC19;
+C21#NC19-SC22;
+C22#NC21-OC24-EC23;
+C23#SFN-OC22;
+C24#OC25-EC22;
+C25#OC26-EC24-SC27;
+C26#EC25;
+C27#NC25-SC28;
+C28#NC27;
+C29#NC12-SC30;
+C30#NC29-SC32-EC31;
+C31#OC30;
+C32#NC30-SC33;
+C33#NC32-EC34;
+C34#OC33-SC35;
+C35#NC34-EC36;
+C36#OC35;
+@
+// Definimos los objetos que hay por el mapa.
+// Las configuraciones se separan con #:
+// + Nombre de la sala en la que se encuentra.
+// + Item(M [ordenador] | B [llave azul] | Y [llave amarilla] | R [llave roja] | V [llave verde]).
+// + El nombre de la sala que se desbloquea una de sus puertas con ese objeto.
+// + La ubicación de la puerta que se desbloquea (N [norte] | S [sur] | E [este] | O [oeste]).
+C4#M#C8#S;
+C35#M#C16#N;
+C17#R#C30#E;
+C31#M#C13#E;
+C14#Y#C25#O;
+C6#M#C6#S;
+C7#B#C19#O;
+C20#V#C27#S;
+C28#M#C22#E;
+C23#M#C35#E;
+C36#M#C23#S;
+@
+// Establecemos las preguntas de los ordenadores, máximo 138 carácteres.
+// Las configuraciones se separan con #:
+// + Nombre de la sala en la que se encuentra.
+// + La pregunta de la máquina.
+// + La respuesta, la respuesta es única.
+C4#¿Cuando se creó el lenguaje C?#1972;
+C35#¿Cuando se creó el lenguaje Java?#1996;
+C31#¿Cuál es el nombre del creador de Linux?#Linus;
+C6#Pon la contraseña:#1765787;
+C28#¿Cómo se llama el compilador de c++ creado por GNU?#GCC;
+C23#¿Cuál es el apellido del crador del proyecto GNU?#Stallman;
+C36#¿Cómo se llama la mascota de linux?#Tux;
+@
+// En esta parte se pueden establecer imágenes personalizadas a las salas.
+// Las configuraciones se separan con #:
+// + Nombre de la sala.
+// + Ubicación de la imagen.
+// + La perspectiva de la imagen.
+C26#/cuartos/sin_ordenador/CP.png#E;
+@
