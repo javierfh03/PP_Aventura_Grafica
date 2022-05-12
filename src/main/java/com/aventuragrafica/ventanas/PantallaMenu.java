@@ -58,7 +58,6 @@ public class PantallaMenu extends JFrame implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent arg0) {
         int opcion;
-        boolean resultado;
         JFileChooser fc;
         Jugar jugar = new Jugar();
         
@@ -71,13 +70,8 @@ public class PantallaMenu extends JFrame implements ActionListener{
             fc.showOpenDialog(jCargarMapa);
             
             if (fc.getSelectedFile() != null){
-                while (resultado = !jugar.juego(fc.getSelectedFile()) && fc.showSaveDialog(jJuego) != JFileChooser.CANCEL_OPTION) {  
-                    if (!resultado){
-                        setVisible(false);
-                    }else{
-                        fc.setDialogTitle("Seleccione un archivo");
-                        fc.showOpenDialog(jCargarMapa);
-                    }
+                if (jugar.juego(fc.getSelectedFile())){
+                    setVisible(false);
                 }
             }
         }else{
