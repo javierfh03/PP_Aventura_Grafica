@@ -22,7 +22,6 @@ public class PantallaOrdenador extends JDialog implements ActionListener, MouseL
     private JButton jSalir;
     private boolean noEstaResuelto;
     private PantallaJuego padre;
-    
 
     /**
      * Constructor de la clase.

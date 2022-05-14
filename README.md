@@ -123,8 +123,8 @@ siguientes parametros:
     Cosas a tener en cuenta:
     - La imagen debe estar en la misma ruta que la del mapa que quiere cargar.
     - La sala final no puede tener una imagen personalizada.
-    - No es recomendable establecer una imagen personalizada en las salas con objetos ya que no funciona correctamente
-    y dependiendo de la imagen puede llegar a confundir al usuario.
+    - No es recomendable establecer una imagen personalizada en las salas con objetos o salas con puertas bloqueadas ya que no funciona 
+    correctamente y dependiendo de la imagen puede llegar a confundir al usuario.
     - Las medidas recomendadas para el mapa son 534 × 405.
     - En este directorio hay una plantilla SVG para crear tus propias salas: https://raspifj.duckdns.org/Directorio/Proyectos/PP_Aventura_Grafica/cuarto.svg
 

@@ -160,6 +160,7 @@ public class PantallaJuego extends JFrame implements ActionListener{
         setResizable(false);
         setLocationRelativeTo(null);
         setTitle("ComerLab");
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
         
         jPaAcciones.setBorder(new LineBorder(this.getBackground(), 10));
         jPaMovimiento.setBorder(new LineBorder(this.getBackground(), 10));

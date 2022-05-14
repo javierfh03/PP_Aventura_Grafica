@@ -60,7 +60,6 @@ public class Llave extends Objeto{
         Sala sala = ventana.getSalaMostrar();
         Sala salaReferencia = sala.getObjetoSala().getReferencia();
         HashMap<String, Sala> listaActualizar = new HashMap();
-        Llave llave = (Llave) sala.getObjetoSala();
         Descripcion ed = new Descripcion(listaActualizar);
         Imagenes ei = new Imagenes(listaActualizar);
         
