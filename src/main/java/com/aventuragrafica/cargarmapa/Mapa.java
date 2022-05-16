@@ -250,10 +250,11 @@ public class Mapa {
                             texto.setLength(0);
                             break;
                         case 1:
-                            if (texto.length() < 140){
+                            if (texto.length() < 171){
                                 or.setPregunta(texto.toString());
                                 texto.setLength(0);
                             }else{
+                                System.out.println(texto.length());
                                 throw new Exception();
                             }
                             break;
@@ -270,7 +271,7 @@ public class Mapa {
                     if (a == 1){
                         contPalabras++;
                         
-                        if (!(contPalabras < 48)){
+                        if (!(contPalabras < 57)){
                             texto.append("\n");
                             contPalabras = 0;
                         }

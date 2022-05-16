@@ -107,7 +107,7 @@ siguientes parametros:
     - La respuesta.
 
     Cosas a tener en cuenta:
-    - Las preguntas tienen un máximo de 138 carácteres.
+    - Las preguntas tienen un máximo de 171 carácteres.
     - Al poner una respuesta en un ordenador no distingue entre mayúsculas y minúsculas.
 
     Por ejemplo, se quiere establecer la pregunta y la respuesta al ordenador de la Sala2.

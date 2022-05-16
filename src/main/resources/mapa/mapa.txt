@@ -98,7 +98,7 @@ C28#M#C22#E;
 C23#M#C35#E;
 C36#M#C23#S;
 @
-// Establecemos las preguntas de los ordenadores, máximo 138 carácteres.
+// Establecemos las preguntas de los ordenadores, máximo 171 carácteres.
 // Las configuraciones se separan con #:
 // + Nombre de la sala en la que se encuentra.
 // + La pregunta de la máquina.
