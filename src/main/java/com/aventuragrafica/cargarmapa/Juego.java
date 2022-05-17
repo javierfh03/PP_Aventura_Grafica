@@ -12,10 +12,10 @@ import javax.swing.JOptionPane;
  * 
  * @author javier
  */
-public class Jugar {
+public class Juego {
     private LinkedHashMap<String, Sala> salas;
 
-    public Jugar() {
+    public Juego() {
         salas = new LinkedHashMap();
     }
     

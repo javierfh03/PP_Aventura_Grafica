@@ -1,6 +1,6 @@
 package com.aventuragrafica.ventanas;
 
-import com.aventuragrafica.cargarmapa.Jugar;
+import com.aventuragrafica.cargarmapa.Juego;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -59,7 +59,7 @@ public class PantallaMenu extends JFrame implements ActionListener{
     public void actionPerformed(ActionEvent arg0) {
         int opcion;
         JFileChooser fc;
-        Jugar jugar = new Jugar();
+        Juego jugar = new Juego();
         
         if (arg0.getSource().equals(jJuego)){
             jugar.juego();

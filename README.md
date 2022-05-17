@@ -141,4 +141,4 @@ Pudes descargar un mapa sencillo en este link: https://raspifj.duckdns.org/Direc
 ## Probar el juego
 Puedes descargar el juego en un archivo JAR en el siguiente link: https://raspifj.duckdns.org/Directorio/Proyectos/PP_Aventura_Grafica/PP_3aEv_Aventura_Grafica.jar
 
-El proyecto fué compilado en java 11.
+El proyecto fué compilado en java 1.8

@@ -254,7 +254,6 @@ public class Mapa {
                                 or.setPregunta(texto.toString());
                                 texto.setLength(0);
                             }else{
-                                System.out.println(texto.length());
                                 throw new Exception();
                             }
                             break;
