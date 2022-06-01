@@ -126,7 +126,7 @@ siguientes parametros:
     - No es recomendable establecer una imagen personalizada en las salas con objetos o salas con puertas bloqueadas ya que no funciona 
     correctamente y dependiendo de la imagen puede llegar a confundir al usuario.
     - Las medidas recomendadas para el mapa son 534 × 405.
-    - En este directorio hay una plantilla SVG para crear tus propias salas: https://raspifj.duckdns.org/Directorio/Proyectos/PP_Aventura_Grafica/cuarto.svg
+    - En este directorio hay una plantilla SVG para crear tus propias salas: https://github.com/javierfh03/PP_Aventura_Grafica/releases/download/final/cuarto.svg
 
     Por ejemplo, se quiere establecer una imagen personalizada en la Sala4 en su perspectiva sur:
     ```
@@ -135,3 +135,5 @@ siguientes parametros:
 
 Por último para separar cada fase hay que poner al finalizar cada una un ```@``` y se pueden poner comentarios de esta 
 forma: ```// Comentario```.
+
+Un pequeño mapa de ejemplo: https://github.com/javierfh03/PP_Aventura_Grafica/releases/download/final/demo.zip
